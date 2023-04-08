@@ -170,6 +170,8 @@ function calculateTotalProfit() {
     forecast(item_exp, growth, time, i, deadline); // Forecasting growth for years mentioned
   }
 
+  let isDesire = 0;
+
   addExpenses(item_exp, sum, time, n);
 
   findQuarterValues(sum, totalNeeded, n);
