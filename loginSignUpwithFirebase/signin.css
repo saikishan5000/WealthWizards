@@ -1,6 +1,8 @@
 body {
-  background-color: powderblue;
+  background-image: url("gradient3.jpg");
+  background-repeat: no-repeat;
   font-size: 13px;
+  background-size: cover;
 }
 
 h1,
@@ -16,6 +18,7 @@ p {
   margin: 100px 550px;
   padding: auto;
   font-family: "Montserrat", serif;
+  box-shadow: 20px 20px 30px rgb(53, 53, 53);
 }
 
 .info {
@@ -61,13 +64,13 @@ label {
 }
 
 .footer {
-  color: black;
-  font-size: 14px;
-  margin-left: -20px;
+  color: white;
+  font-size: 20px;
+  margin-left: -30px;
 }
 
 .link {
-  color: #34d98f;
+  color: #000;
 }
 .green-text {
   padding: 20px;
